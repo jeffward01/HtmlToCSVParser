@@ -21,7 +21,10 @@ namespace HTMLtoCSV.Console
 
            //Extract Document Title
            var documentTitle = htmlDocument.DocumentNode.SelectSingleNode("h2").InnerHtml;
-           var myTable = htmlDocument.DocumentNode.Descendants("tr");
+           var myTable = htmlDocument.DocumentNode.Descendants("table").First();
+           var tableTrs = myTable.Descendants("tr");
+           var songsTable = htmlDocument.DocumentNode.Descendants("table").Last();
+           var songsTrs = songsTable.Descendants("tr");
            //Build holder string for each row values
            StringBuilder rowValues = new StringBuilder();
 
@@ -32,7 +35,7 @@ namespace HTMLtoCSV.Console
 
 
            //Iterate over each row <tr>
-           foreach (HtmlNode node in myTable)
+           foreach (HtmlNode node in tableTrs)
            {
                //Build string to hold cell values
                StringBuilder cellvalues = new StringBuilder();
@@ -56,6 +59,29 @@ namespace HTMLtoCSV.Console
                //Append Cell values to new line, this creates the CSV file.
                rowValues.AppendLine(cellvalues.ToString());
            }
+
+           //iterate over songs here
+           foreach (HtmlNode node in songsTrs)
+           {
+               //build string to hold values
+               StringBuilder songValues = new StringBuilder();
+               var counter = 1;
+               foreach (HtmlNode node2 in node.Descendants("td"))
+               {
+                   var attribute = node2.InnerHtml;
+                   if (counter < 4)
+                   {
+                       songValues.Append(attribute + ",");
+                   }
+                   else
+                   {
+                       songValues.Append(attribute);
+                   }
+                   counter++;
+               }
+               rowValues.AppendLine(songValues.ToString());
+           }
+
            return rowValues.ToString();
        }
 
