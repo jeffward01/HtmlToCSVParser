@@ -1,0 +1,13 @@
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\bin\Debug\HTMLtoCSV.Console.exe.config
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\bin\Debug\HTMLtoCSV.Console.exe
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\bin\Debug\HTMLtoCSV.Console.pdb
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\bin\Debug\Fizzler.dll
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\bin\Debug\HtmlAgilityPack.dll
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\bin\Debug\Fizzler.xml
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\bin\Debug\Fizzler.Systems.HtmlAgilityPack.xml
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\bin\Debug\HtmlAgilityPack.pdb
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\bin\Debug\HtmlAgilityPack.xml
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\obj\Debug\HTMLtoCSV.Console.csprojResolveAssemblyReference.cache
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\obj\Debug\HTMLtoCSV.Console.exe
+C:\Dev\projects\Testing\Mechs Testing\HTMLtoCSV\HTMLtoCSV.Console\obj\Debug\HTMLtoCSV.Console.pdb
