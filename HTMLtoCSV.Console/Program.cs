@@ -24,10 +24,17 @@ namespace HTMLtoCSV.Console
             {
                 Directory.CreateDirectory(path);
             }
+            if (Directory.Exists(filePath))
+            {
+                File.Delete(filePath);
+            }
+           
+
+
 
             File.WriteAllText(filePath, output);
             
-            
+            File.Delete(filePath);
 
 
 
